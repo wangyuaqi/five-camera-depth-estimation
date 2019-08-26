@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sgm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opencv-3.4.1\;CMake Files\..\..\..\..\opencv-3.4.1\new_build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sgm">
+				<Option output="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/sgm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/new_build"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/core/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/flann/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/imgproc/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/ml/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/objdetect/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/photo/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/video/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/dnn/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/imgcodecs/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/shape/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/videoio/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/highgui/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/superres/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/ts/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/features2d/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/calib3d/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/stitching/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 sgm"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sgm/fast">
+				<Option output="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/sgm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/new_build"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/core/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/flann/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/imgproc/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/ml/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/objdetect/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/photo/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/video/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/dnn/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/imgcodecs/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/shape/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/videoio/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/highgui/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/superres/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/ts/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/features2d/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/calib3d/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/stitching/include"/>
+					<Add directory="/home/wangyuanqi/opencv-3.4.1/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 sgm/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/CMakeFiles/sgm.dir/src/sgm_generated_costs.cu.o">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/CMakeFiles/sgm.dir/src/sgm_generated_debug.cu.o">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/CMakeFiles/sgm.dir/src/sgm_generated_depth_compute.cu.o">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/CMakeFiles/sgm.dir/src/sgm_generated_disparity_method.cu.o">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/CMakeFiles/sgm.dir/src/sgm_generated_hamming_cost.cu.o">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/CMakeFiles/sgm.dir/src/sgm_generated_image_warp.cu.o">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/CMakeFiles/sgm.dir/src/sgm_generated_median_filter.cu.o">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/CMakeFiles/sgm.dir/src/sgm_generated_n_hamming_cost.cu.o">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/cmake-build-debug/CMakeFiles/sgm.dir/src/sgm_generated_new_main.cu.o">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/ImageTool.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/configuration.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/costs.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/debug.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/depth_compute.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/disparity_method.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/hamming_cost.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/image_warp.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/median_filter.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/new_cost_aggregation.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/patch_match.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/stereoRectified.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/stereoRectifyParams.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/include/util.h">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/src/ImageTool.cpp">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/src/costs.cu">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/src/debug.cu">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/src/depth_compute.cu">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/src/disparity_method.cu">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/src/hamming_cost.cu">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/src/image_warp.cu">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/src/map.cpp">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/src/median_filter.cu">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/src/n_hamming_cost.cu">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/src/new_main.cu">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/src/stereoRectified.cpp">
+			<Option target="sgm"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/../../../../opencv-3.4.1/new_build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opencv-3.4.1\new_build\"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/../../../../opencv-3.4.1/new_build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opencv-3.4.1\new_build\"/>
+		</Unit>
+		<Unit filename="/home/wangyuanqi/code/code/sgm_12_30/new_camera_code/../../../../opencv-3.4.1/new_build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opencv-3.4.1\new_build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

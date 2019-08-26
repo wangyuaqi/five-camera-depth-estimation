@@ -1,0 +1,3 @@
+/home/wangyuanqi/code/code/sgm_12_30/camera_5_code/new_build/CMakeFiles/rebuild_cache.dir
+/home/wangyuanqi/code/code/sgm_12_30/camera_5_code/new_build/CMakeFiles/sgm.dir
+/home/wangyuanqi/code/code/sgm_12_30/camera_5_code/new_build/CMakeFiles/edit_cache.dir
